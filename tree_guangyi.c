@@ -14,7 +14,7 @@
 typedef struct Node {
     int key;
     struct Node *lchild, *rchild;
-} Node;
+} Node; 
 
 typedef struct Stack {
     Node **data;
